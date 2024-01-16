@@ -1,5 +1,6 @@
 
 const sdk = require('api')('@render-api/v1.0#jw0325lr5hblce');
+require('dotenv').config();
 const express = require('express')
 const app = express()
 const port = 3000
